@@ -10,13 +10,26 @@ from langchain.agents.react.base import DocstoreExplorer
 import os
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
-load_dotenv()
+class DocumentProcessor:
+    def __init__(self, directory):
+        self.directory = directory
+    
+    def load_and_process_documents(self):
+        loader = DirectoryLoader(self.directory, glob="./*.pdf", loader_cls=PyPDFLoader)
+        documents = loader.load()
+        text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+        texts = text_splitter.split_documents(documents)
+        return texts
 
-# Retrieve the Hugging Face Hub API token
-HUGGINGFACEHUB_API_TOKEN = os.environ["HUGGINGFACEHUB_API_TOKEN"]
+
 
 if __name__ == "__main__":
+    # Load environment variables from .env file
+    load_dotenv()
+
+    # Retrieve the Hugging Face Hub API token
+    HUGGINGFACEHUB_API_TOKEN = os.environ["HUGGINGFACEHUB_API_TOKEN"]
+    
     # Initialize HuggingFaceHub LLM
     llm = HuggingFaceHub(
         repo_id="HuggingFaceH4/zephyr-7b-beta",
@@ -24,15 +37,9 @@ if __name__ == "__main__":
         huggingfacehub_api_token=HUGGINGFACEHUB_API_TOKEN
     )
 
-    def load_and_process_documents(directory):
-        # Load and process the text files
-        loader = DirectoryLoader(directory, glob="./*.pdf", loader_cls=PyPDFLoader)
-        documents = loader.load()
-        # Split the text into chunks
-        text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
-        texts = text_splitter.split_documents(documents)
-        return texts
-    texts = load_and_process_documents('./data/')
+    # Process and load the documents
+    document_processor = DocumentProcessor('./data/')
+    texts = document_processor.load_and_process_documents()
 
     # Embed and store the texts
     persist_directory = 'db'
