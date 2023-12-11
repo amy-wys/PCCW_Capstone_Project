@@ -28,13 +28,13 @@ llm=HuggingFaceHub(
     )
 
 # LOAD DOCUMENTS AND SPLIT TEXT
-loader = DirectoryLoader('./data/', glob="./*.pdf", loader_cls=PyPDFLoader)
+loader = DirectoryLoader('./PDF_doc/', glob="./*.pdf", loader_cls=PyPDFLoader)
 documents = loader.load()
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
 texts = text_splitter.split_documents(documents)
 
 # CREATE VECTOR DB
-persist_directory = 'db_1000_500_test'
+persist_directory = 'db_QA_testing_1000_200'
 embedding = HuggingFaceEmbeddings()
 vectordb = Chroma.from_documents(documents=texts,
                                  embedding=embedding,

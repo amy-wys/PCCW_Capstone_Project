@@ -18,6 +18,7 @@ _ = load_dotenv()
 OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
 HUGGINGFACEHUB_API_TOKEN = os.environ["HUGGINGFACEHUB_API_TOKEN"]
 
+
 # SETTING UP EMBEDDINGS AND LANGUAGE MODELS
 instructor_embeddings = HuggingFaceInstructEmbeddings(model_name="BAAI/bge-base-en-v1.5",
                                                       model_kwargs={"device": "cuda"})
@@ -27,7 +28,7 @@ llm=HuggingFaceHub(
     huggingfacehub_api_token=HUGGINGFACEHUB_API_TOKEN
     )
 
-persist_directory = 'db_1000_500_test'
+persist_directory = 'db_QA_testing_1000_200'
 embedding = HuggingFaceEmbeddings()
 vectordb = Chroma(persist_directory=persist_directory,
                   embedding_function=embedding)
