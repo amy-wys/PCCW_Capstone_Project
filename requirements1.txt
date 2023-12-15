@@ -1,0 +1,17 @@
+accelerate==0.20.3
+chromadb==0.4.17
+fastapi==0.96.0
+huggingface-hub==0.15.1
+langchain==0.0.348
+openai==0.27.8
+protobuf==3.20.0
+pypdfium2==4.19.0
+python-dotenv==1.0.0
+tiktoken==0.4.0
+tokenizers==0.13.3
+transformers==4.30.0
+uvicorn==0.22.0
+sentence-transformers==2.2.2
+https://download.pytorch.org/whl/cpu/torch-2.1.0%2Bcpu-cp310-cp310-win_amd64.whl
+tqdm~=4.65.0
+numpy~=1.24.3
