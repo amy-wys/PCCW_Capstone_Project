@@ -11,6 +11,7 @@ from langchain.document_loaders import TextLoader
 from langchain.document_loaders import PyPDFLoader
 from langchain.document_loaders import DirectoryLoader
 import pandas as pd
+import csv
 import os
 from dotenv import load_dotenv
 
@@ -282,19 +283,20 @@ qa_chain = RetrievalQA.from_chain_type(llm=llm,
 def process_llm_response(llm_response):
     print(llm_response['result'])
     print(llm_response['source_documents'][0].metadata)
+    return llm_response['result']
 
 query_answers = {}
 
-for i in list_of_queries:
-    try:
-        llm_response = qa_chain(i)
-    except RuntimeError:
-        print("Took too long...Try again later")
-    else:
-        query_answers[i] = process_llm_response(llm_response)
 
-# Convert the dictionary to a pandas DataFrame
-df = pd.DataFrame(list(query_answers.items()), columns=['Queries', 'Answers'])
-
-# Display the DataFrame
-df.to_csv('db_QA_testing_1000_200.csv', index=False)
+with open("GFG.csv", "w", newline="") as csvfile:
+    fieldnames = ['Query', 'Answer']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    for i in list_of_queries:
+        try:
+            llm_response = qa_chain(i)
+        except RuntimeError:
+            print("Took too long...Try again later")
+        else:
+            query_answers[i] = process_llm_response(llm_response)
+            writer.writerow({'Query': i, 'Answer': query_answers[i]})
