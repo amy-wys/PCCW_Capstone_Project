@@ -266,7 +266,7 @@ list_of_queries = [
 
 ]
 
-persist_directory = 'db_QA_testing_1000_200'
+persist_directory = 'db_QA_testing_500_100'
 embedding = HuggingFaceEmbeddings()
 vectordb = Chroma(persist_directory=persist_directory,
                   embedding_function=embedding)
@@ -288,7 +288,7 @@ def process_llm_response(llm_response):
 query_answers = {}
 
 
-with open("GFG.csv", "w", newline="") as csvfile:
+with open("db_QA_testing_500_100.csv", "w", newline="") as csvfile:
     fieldnames = ['Query', 'Answer']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()
