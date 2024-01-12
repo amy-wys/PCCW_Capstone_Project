@@ -5,8 +5,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66cd3b75-d309-4ddb-a06a-c62a879f717c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Retrieval_Chatbot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GFG.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDF_doc/Flight-Operations-Manual-FOM.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/Flight-Operations-Manual-FOM.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDF_doc/Gatsby_PDF_FullText.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/Gatsby_PDF_FullText.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDF_doc/How AI is expanding art history.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/How AI is expanding art history.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDF_doc/NYSE_AXP_2021.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/NYSE_AXP_2021.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDF_doc/guidance_precipitationforecasts.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/guidance_precipitationforecasts.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PDF_doc/loneliness and negative schemas.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/data/loneliness and negative schemas.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QA_testing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/reference/TestingPurpose/QA_testing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Retrieval_Chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/reference/TestingPurpose/Retrieval_Chatbot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingChroma.py" beforeDir="false" afterPath="$PROJECT_DIR$/reference/TestingPurpose/TestingChroma.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingRetriever.py" beforeDir="false" afterPath="$PROJECT_DIR$/reference/TestingPurpose/TestingRetriever.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestingRetrieverNewQA.py" beforeDir="false" afterPath="$PROJECT_DIR$/reference/TestingPurpose/TestingRetrieverNewQA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Untitled.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/s41598-023-47912-0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_1000_500_test/chroma.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_1000_500_test/chroma.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_0.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_0/c883d1a2-a3bc-4c20-ad41-464815c8e77f/data_level0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_0/c883d1a2-a3bc-4c20-ad41-464815c8e77f/data_level0.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_0/c883d1a2-a3bc-4c20-ad41-464815c8e77f/header.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_0/c883d1a2-a3bc-4c20-ad41-464815c8e77f/header.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_0/c883d1a2-a3bc-4c20-ad41-464815c8e77f/index_metadata.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_0/c883d1a2-a3bc-4c20-ad41-464815c8e77f/index_metadata.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_0/c883d1a2-a3bc-4c20-ad41-464815c8e77f/length.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_0/c883d1a2-a3bc-4c20-ad41-464815c8e77f/length.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_0/c883d1a2-a3bc-4c20-ad41-464815c8e77f/link_lists.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_0/c883d1a2-a3bc-4c20-ad41-464815c8e77f/link_lists.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_0/chroma.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_0/chroma.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_100.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_100.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_100/58e24b2d-4325-4337-9425-d9fa864c75ac/data_level0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_100/58e24b2d-4325-4337-9425-d9fa864c75ac/data_level0.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_100/58e24b2d-4325-4337-9425-d9fa864c75ac/header.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_100/58e24b2d-4325-4337-9425-d9fa864c75ac/header.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_100/58e24b2d-4325-4337-9425-d9fa864c75ac/index_metadata.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_100/58e24b2d-4325-4337-9425-d9fa864c75ac/index_metadata.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_100/58e24b2d-4325-4337-9425-d9fa864c75ac/length.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_100/58e24b2d-4325-4337-9425-d9fa864c75ac/length.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_100/58e24b2d-4325-4337-9425-d9fa864c75ac/link_lists.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_100/58e24b2d-4325-4337-9425-d9fa864c75ac/link_lists.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_100/chroma.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_100/chroma.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_200.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_200.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_200/27169f62-9cbc-4db6-b6b8-63afa0ef3fe3/data_level0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_200/27169f62-9cbc-4db6-b6b8-63afa0ef3fe3/data_level0.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_200/27169f62-9cbc-4db6-b6b8-63afa0ef3fe3/header.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_200/27169f62-9cbc-4db6-b6b8-63afa0ef3fe3/header.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_200/27169f62-9cbc-4db6-b6b8-63afa0ef3fe3/index_metadata.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_200/27169f62-9cbc-4db6-b6b8-63afa0ef3fe3/index_metadata.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_200/27169f62-9cbc-4db6-b6b8-63afa0ef3fe3/length.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_200/27169f62-9cbc-4db6-b6b8-63afa0ef3fe3/length.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_200/27169f62-9cbc-4db6-b6b8-63afa0ef3fe3/link_lists.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_200/27169f62-9cbc-4db6-b6b8-63afa0ef3fe3/link_lists.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_1000_200/chroma.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_1000_200/chroma.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_2000_0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_2000_0.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_2000_0/63eb4e2d-9d33-4883-ad32-981c3e598087/data_level0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_2000_0/63eb4e2d-9d33-4883-ad32-981c3e598087/data_level0.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_2000_0/63eb4e2d-9d33-4883-ad32-981c3e598087/header.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_2000_0/63eb4e2d-9d33-4883-ad32-981c3e598087/header.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_2000_0/63eb4e2d-9d33-4883-ad32-981c3e598087/index_metadata.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_2000_0/63eb4e2d-9d33-4883-ad32-981c3e598087/index_metadata.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_2000_0/63eb4e2d-9d33-4883-ad32-981c3e598087/length.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_2000_0/63eb4e2d-9d33-4883-ad32-981c3e598087/length.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_2000_0/63eb4e2d-9d33-4883-ad32-981c3e598087/link_lists.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_2000_0/63eb4e2d-9d33-4883-ad32-981c3e598087/link_lists.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_2000_0/chroma.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_2000_0/chroma.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_2000_400.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_2000_400.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_2000_400/chroma.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_2000_400/chroma.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_2000_400/f433c8f8-2de0-439e-b04c-db73a994c2a7/data_level0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_2000_400/f433c8f8-2de0-439e-b04c-db73a994c2a7/data_level0.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_2000_400/f433c8f8-2de0-439e-b04c-db73a994c2a7/header.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_2000_400/f433c8f8-2de0-439e-b04c-db73a994c2a7/header.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_2000_400/f433c8f8-2de0-439e-b04c-db73a994c2a7/index_metadata.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_2000_400/f433c8f8-2de0-439e-b04c-db73a994c2a7/index_metadata.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_2000_400/f433c8f8-2de0-439e-b04c-db73a994c2a7/length.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_2000_400/f433c8f8-2de0-439e-b04c-db73a994c2a7/length.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_2000_400/f433c8f8-2de0-439e-b04c-db73a994c2a7/link_lists.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_2000_400/f433c8f8-2de0-439e-b04c-db73a994c2a7/link_lists.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_500_0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_500_0.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_500_0/4cc438aa-ec97-47da-bcd9-e4b3832c62e7/data_level0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_500_0/4cc438aa-ec97-47da-bcd9-e4b3832c62e7/data_level0.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_500_0/4cc438aa-ec97-47da-bcd9-e4b3832c62e7/header.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_500_0/4cc438aa-ec97-47da-bcd9-e4b3832c62e7/header.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_500_0/4cc438aa-ec97-47da-bcd9-e4b3832c62e7/index_metadata.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_500_0/4cc438aa-ec97-47da-bcd9-e4b3832c62e7/index_metadata.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_500_0/4cc438aa-ec97-47da-bcd9-e4b3832c62e7/length.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_500_0/4cc438aa-ec97-47da-bcd9-e4b3832c62e7/length.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_500_0/4cc438aa-ec97-47da-bcd9-e4b3832c62e7/link_lists.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_500_0/4cc438aa-ec97-47da-bcd9-e4b3832c62e7/link_lists.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_500_0/chroma.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_500_0/chroma.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_500_100.csv" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_500_100.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_500_100/b97d16c7-364b-42e3-8211-e8f46fe76cd1/data_level0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_500_100/b97d16c7-364b-42e3-8211-e8f46fe76cd1/data_level0.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_500_100/b97d16c7-364b-42e3-8211-e8f46fe76cd1/header.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_500_100/b97d16c7-364b-42e3-8211-e8f46fe76cd1/header.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_500_100/b97d16c7-364b-42e3-8211-e8f46fe76cd1/index_metadata.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_500_100/b97d16c7-364b-42e3-8211-e8f46fe76cd1/index_metadata.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_500_100/b97d16c7-364b-42e3-8211-e8f46fe76cd1/length.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_500_100/b97d16c7-364b-42e3-8211-e8f46fe76cd1/length.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_500_100/b97d16c7-364b-42e3-8211-e8f46fe76cd1/link_lists.bin" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_500_100/b97d16c7-364b-42e3-8211-e8f46fe76cd1/link_lists.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_QA_testing_500_100/chroma.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/reference/VectorDatabases/db_QA_testing_500_100/chroma.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +99,11 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/reference/TestingPurpose" />
+      <recent name="$PROJECT_DIR$/reference/VectorDatabases" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

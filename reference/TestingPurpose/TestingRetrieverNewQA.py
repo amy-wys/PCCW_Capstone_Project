@@ -288,7 +288,7 @@ def process_llm_response(llm_response):
 query_answers = {}
 
 
-with open("db_QA_testing_2000_400.csv", "w", newline="") as csvfile:
+with open("../VectorDatabases/db_QA_testing_2000_400.csv", "w", newline="") as csvfile:
     fieldnames = ['Query', 'Answer']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()

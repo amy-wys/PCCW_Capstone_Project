@@ -28,7 +28,7 @@ llm=HuggingFaceHub(
     )
 
 # LOAD DOCUMENTS AND SPLIT TEXT
-loader = DirectoryLoader('./PDF_doc/', glob="./*.pdf", loader_cls=PyPDFLoader)
+loader = DirectoryLoader('../../PDF_doc/', glob="./*.pdf", loader_cls=PyPDFLoader)
 documents = loader.load()
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=400)
 texts = text_splitter.split_documents(documents)
