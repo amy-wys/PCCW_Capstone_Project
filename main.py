@@ -37,11 +37,11 @@ if __name__ == "__main__":
 
 
     while True:
-        user_input = input("\nUser: ")
+        user_input = input("\nUser: (ENTER 'quit' to exit)")
         if user_input:
             llm_response = qa_chain(user_input)
             process_llm_response(llm_response)
+        elif user_input == 'quit':
             break
         else:
             print("Invalid input.")
-            break
