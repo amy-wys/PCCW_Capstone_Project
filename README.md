@@ -12,15 +12,9 @@ https://drive.google.com/drive/u/0/folders/1R3A4fHQQj_th1a6gMK8zf9-dAAqJqtKV
 To run the chatbot:
 1. pip install -r requirements.txt
 2. Create a .env file for API Token
-3. Open Retrieval_Chatbot.py
-4. Run Retrieval_Chatbot.py
+3. Run main.py
 
-You can also change which database to use within the Retrieval_Chatbot.py file.
+You can also change which database to use.
 
 If you want to add in new unstructured data, you can move your selected PDF into the PDF_doc folder first.
-
-Then, to add in the data:
-1. Open TestingChroma.py
-2. Change the name of the database to something related
-3. Run TestingChroma.py
 
